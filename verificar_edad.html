@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificar Edad</title>
+    <link rel="stylesheet" href="css/estilo_login.css">
+    
+</head>
+<body>
+    <div class="age-verification-container">
+        <h2>Verificación de Edad</h2>
+        <form id="age-form">
+            <label for="year-of-birth">Año de Nacimiento:</label>
+            <input type="number" id="year-of-birth" name="year-of-birth" required>
+            <button type="button" id="verify-age-button">Verificar Edad</button>
+            <div id="resultado-edad"></div>
+        </form>
+    </div>
+    <script src="Java/verificacion_edad.js"></script>
+</body>
+</html>
